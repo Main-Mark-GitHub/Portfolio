@@ -1,0 +1,64 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="center">
+        <img src="{% static 'images/photo.png' %}" alt="My photo" id="my_photo">
+        <div id="links">
+            <a href="{{developer_github_url}}" class="no_underline">Developer GitHub</a>
+            <a href="{{project_github_url}}" class="no_underline">Project on GitHub</a>
+            <img src="{% static 'images/github.png' %}" alt="GitHub icon" id="github_icon">
+        </div>
+        <div class="skills">
+            <h2>Development skills</h2>
+            <ul class="skills_list">
+                <li>
+                    Python
+                    <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" class="no_underline">?</a>
+                </li>
+                <li>
+                    Django
+                    <a href="https://en.wikipedia.org/wiki/Django_(web_framework)" class="no_underline">?</a>
+                </li>
+                <li>
+                    Django Rest Framework
+                    <a href="https://www.django-rest-framework.org/" class="no_underline">?</a>
+                </li>
+                <li>
+                    Flask
+                    <a href="https://en.wikipedia.org/wiki/Flask_(web_framework)" class="no_underline">?</a>
+                </li>
+                <li>
+                    SQL
+                    <a href="https://en.wikipedia.org/wiki/SQL" class="no_underline">?</a>
+                </li>
+                <li>
+                    MySQL
+                    <a href="https://en.wikipedia.org/wiki/MySQL" class="no_underline">?</a>
+                </li>
+                <li>
+                    Git, GitHub
+                    <a href="https://en.wikipedia.org/wiki/Git" class="no_underline">?</a>
+
+                </li>
+                <li>
+                    HTML
+                    <a href="https://en.wikipedia.org/wiki/HTML" class="no_underline">?</a>
+
+                </li>
+                <li>
+                    CSS
+                    <a href="https://en.wikipedia.org/wiki/CSS" class="no_underline">?</a>
+
+                </li>
+            </ul>
+        </div>
+        <div class="skills">
+            <h2>Personal skills</h2>
+            <ul class="skills_list">
+                <li>Friendliness</li>
+                <li>Responsibility</li>
+            </ul>
+        </div>
+    </div>
+
+{% endblock %}
