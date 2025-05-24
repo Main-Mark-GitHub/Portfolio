@@ -115,5 +115,5 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Urls
-DEVELOPER_GITHUB_URL = 'https://github.com/Main-Mark-GitHub'
-PROJECT_GITHUB_URL = 'https://github.com/Main-Mark-GitHub/Portfolio'
+DEVELOPER_GITHUB_URL = 'https://github.com/mark-sid'
+PROJECT_GITHUB_URL = 'https://github.com/mark-sid/Portfolio'
